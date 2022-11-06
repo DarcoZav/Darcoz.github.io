@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog : Editor</title>
+<link rel="shortcut icon" href="https://media.discordapp.net/attachments/768038699434508321/1038761555807961108/1300090_tMo9Q5iE.png" type="image/png" />
+
+  <!---Meta Property------->
+  <meta name="description" content="A Simple Blog Website">
+  <!--Change The Above Description-->
+  <meta name="keywords" content="Keep Waiting Comoming Soon">
+  <!---Change The Above Keywords--->
+
+<!---Meta Property 2------->
+  <meta property="og:site_name" content="Darcoweb">
+  <meta property="og:title" content="DarcoWeb simple about me website">
+  <meta property="og:url" content="https://discord.gg/autocode">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="A Simple Blog Website">
+  <!--Change The Description-->
+  <meta property="og:image" content="https://media.discordapp.net/attachments/768038699434508321/1038756437423300669/IMG_4089.jpg">
+<!--Change The Above Description & Other Mata Stuff-->
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="editor.css">
+
+</head>
+<body>
+
+    <div class="banner">
+        <input type="file" accept="image/*" id="banner-upload" hidden>
+        <label for="banner-upload" class="banner-upload-btn"><img src="https://media.discordapp.net/attachments/768038699434508321/1038756437423300669/IMG_4089.jpg" alt="upload banner"></label>
+    </div>
+    
+    <div class="blog">
+        <textarea type="text" class="title" placeholder="Blog title..."></textarea>
+        <textarea type="text" class="article" placeholder="Start writing here..."></textarea>
+    </div>
+
+    <div class="blog-options">
+        <button class="btn dark publish-btn">publish</button>
+        <input type="file" accept="image/*" id="image-upload" hidden>
+        <label for="image-upload" class="btn grey upload-btn">Upload Image</label>
+    </div>
+
+<script src="editor.js"></script>
+
+</body>
+</html>
